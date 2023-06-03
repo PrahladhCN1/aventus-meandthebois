@@ -26,9 +26,7 @@ export default function Topbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
-        </a>
+        
       </Typography>
       <Typography
         as="li"
@@ -47,7 +45,7 @@ export default function Topbar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          Bills
         </a>
       </Typography>
       <Typography
@@ -69,11 +67,11 @@ export default function Topbar() {
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            href="/"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Material Tailwind
-          </Typography>
+            Platform
+           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
@@ -81,7 +79,7 @@ export default function Topbar() {
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Buy Now</span>
+              <span>Verify</span>
             </Button>
             <IconButton
               variant="text"
